@@ -11,7 +11,7 @@ public class ImageEngine {
         return Math.abs(c.getRed()-c2.getRed()) + Math.abs(c.getGreen()-c2.getGreen()) + Math.abs(c.getBlue()-c2.getBlue());
     }
 
-    public static void work(String imagem) {
+    public static File work(String imagem) {
         Log.log("Converting image");
         BufferedImage img = null;
         try {
@@ -58,6 +58,6 @@ public class ImageEngine {
         }
 
         Log.log("All done! File: " + "src/main/resources/result/"+new File(imagem).getName());
-
+        return new File("src/main/resources/result/"+new File(imagem).getName());
     }
 }
