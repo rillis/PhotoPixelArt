@@ -1,3 +1,4 @@
 ## PhotoPixelArt
 
-[![Watch the video](https://img.youtube.com/vi/6ux-RWMVofM/maxresdefault.jpg)](https://youtu.be/6ux-RWMVofM)
+[Click here](https://www.youtube.com/watch?v=6ux-RWMVofM) to see a demo.
+src\main\java\pixelart\runnable\Example.java to see how to use.
